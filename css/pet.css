@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Sofia', cursive;
+}
+header {
+    text-align: center;
+    padding:  10px 0;
+    background-image: url('../img/fundo-topo.jpg');
+}
+header h1 {
+    margin: 0;
+    height: 84px;
+}
+nav {
+    padding: 15px 0;
+    text-align: center;
+}
+nav li {
+    display: inline;
+    background-image: url('../img/patinha-preta.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding-right: 27px;
+    
+}
+#ItemContato {
+    background-image: none;
+}
+nav a:hover {
+    color: greenyellow;
+    padding-right: 0;
+    margin-right: 0;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+}
+.fundoverde {
+    background-color: green;
+}
+.container {
+    width: 900px;
+    padding: 56px;
+    margin: 0 auto;
+}
+.flex-conteiner .col{
+    width: 430px;
+    margin: 0 auto;
+}
+.flex-conteiner {
+
+}
