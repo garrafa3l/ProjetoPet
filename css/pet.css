@@ -39,17 +39,83 @@ nav a {
     text-decoration: none;
 }
 .fundoverde {
-    background-color: green;
+    background-color: #6dd432;
 }
 .container {
     width: 900px;
     padding: 56px;
     margin: 0 auto;
 }
-.flex-conteiner .col{
+.flex-container .col{
     width: 430px;
     margin: 0 auto;
 }
-.flex-conteiner {
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex: wrap;
+}
 
+.produto {
+
+    width: 235px;
+
+}
+
+.produto figure {
+
+    border: 1px solid #c4c4c4;
+    background-color: #fff;
+    margin: 0 0 15px 0;
+    padding: 0;
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+}
+
+.produto figure img {
+
+    vertical-align: middle;
+}
+
+.btn-pata {
+
+    border: 1px solid #91e467;
+    background-color: #d3fbbd;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+.texto-centralizado {
+
+    text-align: center;
+}
+
+form {
+
+    width: 380px;
+}
+
+form input,
+form textarea {
+
+    width: 100%;
+    border: 1px solid #6dd432;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+
+iframe {
+
+    width: 100%;
+}
+form, iframe {
+    margin-top: 24px;
 }
